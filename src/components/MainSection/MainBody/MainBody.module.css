@@ -1,0 +1,15 @@
+.mainBody{
+    width: 100%;
+    height: calc(100vh - 23vh);
+}
+
+.mainBody .cards{
+    width: 96%;
+    height: 98%;
+    margin: auto;
+    margin-top: 10px;
+    overflow-y: auto;
+}
+.mainBody .cards::-webkit-scrollbar{
+    display: none;
+}

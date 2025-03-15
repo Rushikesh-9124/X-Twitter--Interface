@@ -1,0 +1,21 @@
+.Mainsection{
+    position: relative;
+    min-height: 100vh;
+    left: 11.5vw;
+    flex-grow: 1;
+    margin: auto;
+    z-index: 1000;
+    background-color: black;
+    max-width: 45vw;
+}
+
+.Mainsection .Mainsection_container{
+    width: 90%;
+    min-height: 100vh;
+    margin-left: auto;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,61 @@
+.navBar{
+    width: 40.3vw;
+    max-height: 5vw;
+    min-height: 4vw;
+    background: transparent;
+    backdrop-filter: blur(10px);
+
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+.navBar ul{
+    
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.navBar ul li{
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.2s ease-in-out;
+}
+.navBar ul li a{
+    color: rgba(255, 255, 255, 0.244);
+    text-decoration: none;
+    font-family: helvetica;
+    font-weight: 800;
+    transition: all 0.2s ease-in-out;
+}
+.navBar ul li:hover{
+    background: rgba(255, 255, 255, 0.162);
+}
+.navBar ul li:hover a{
+    color: rgba(255, 255, 255, 0.833);
+}
+
+.navBar ul li:first-child a{
+    color: rgba(255, 255, 255, 0.833); 
+}
+.navBar ul li:first-child{
+    display: flex;
+    flex-direction: column;
+}
+
+.navBar ul li .bar{
+    width: 75px;
+    border-bottom: 5px solid dodgerblue;
+    border-radius: 20%;
+    position: relative;
+    top: 18px;
+}
+
+.navBar .post{
+    height: 8vh;
+}
